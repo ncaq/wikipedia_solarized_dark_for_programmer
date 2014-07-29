@@ -1,0 +1,135 @@
+/*
+  Credits
+  */
+/*
+  Based on solarized http://ethanschoonover.com/solarized
+
+Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+@-moz-document domain('wikipedia.org') {
+  body,
+  table,
+  ul,
+  li,
+  #mw-head,
+  #footer,
+  #catlinks,
+  #simpleSearch,
+  #searchInput,
+  #searchButton,
+  .toc {
+    background-color: #002b36 !important;
+    color: #839496 !important;
+  }
+
+  #p-views,
+  #p-namespaces,
+  ul li,
+  ul li span {
+    background-color: #002b36 !important;
+    color: #839496 !important;
+    background-image: url(none) !important;
+  }
+  #p-views ul li span,
+  #p-namespaces ul li span,
+  ul li ul li span,
+  ul li span ul li span {
+    margin: 1px;
+    padding: 1px;
+    border: medium solid #073642 !important;
+  }
+
+  div#content {
+    background-color: #002b36 !important;
+    color: #839496 !important;
+    border-color: #657b83 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    background-color: #073642 !important;
+    color: #93a1a1 !important;
+    border-color: #839496 !important;
+  }
+
+  code,
+  pre,
+  .mw-code {
+    background-color: #002b36 !important;
+    color: #839496 !important;
+  }
+  code .kw1,
+  pre .kw1,
+  .mw-code .kw1 {
+    color: #859900 !important;
+  }
+  code .kw3,
+  pre .kw3,
+  .mw-code .kw3 {
+    color: #268bd2 !important;
+  }
+  code .kw4,
+  pre .kw4,
+  .mw-code .kw4 {
+    color: #b58900 !important;
+  }
+  code .st0,
+  pre .st0,
+  .mw-code .st0 {
+    background-color: #002b36 !important;
+    color: #2aa198 !important;
+  }
+  code .nu0,
+  pre .nu0,
+  .mw-code .nu0 {
+    color: #93a1a1 !important;
+  }
+  code .br0,
+  pre .br0,
+  .mw-code .br0 {
+    color: #93a1a1 !important;
+  }
+  code .sy0,
+  pre .sy0,
+  .mw-code .sy0 {
+    color: #93a1a1 !important;
+  }
+  code .es1,
+  pre .es1,
+  .mw-code .es1 {
+    color: #6c71c4 !important;
+  }
+  code .coMULTI,
+  pre .coMULTI,
+  .mw-code .coMULTI {
+    color: #586e75 !important;
+  }
+
+  a {
+    color: #268bd2 !important;
+  }
+  a :visited {
+    color: #6c71c4 !important;
+  }
+
+  .new {
+    color: #dc322f !important;
+  }
+}
