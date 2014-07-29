@@ -1,8 +1,0 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document regexp("http://ncode.syosetu.com/.+/.+")
-{
-    #novel_header
-    {
-        display: none !important;
-    }
-}

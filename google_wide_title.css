@@ -1,8 +1,0 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document regexp("^https?://(www|encrypted)?\\.google\\.co.+/search\\?.*q=.+")
-{
-    #cnt #center_col,#cnt #foot
-    {
-        width:600px !important;
-    }
-}
