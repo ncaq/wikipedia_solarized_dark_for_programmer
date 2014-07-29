@@ -101,11 +101,16 @@ $green:   #859900;
         background-color: $base03 !important;
         color:            $base0  !important;
 
-        .kw1 // keyword
+        .kw1 // syntax keyword
         {
             color: $green !important;
         }
         
+        .kw2 // reserved keyword
+        {
+            color: $green !important;
+        }
+
         .kw3 // function
         {
             color: $blue !important;
@@ -116,6 +121,16 @@ $green:   #859900;
             color: $yellow !important;
         }
 
+        .kw5 // reserved keyword
+        {
+            color: $green !important;
+        }
+
+        .me1 //method
+        {
+            color: $blue !important;
+        }
+        
         .st0 // string
         {
             background-color: $base03 !important;
@@ -132,7 +147,7 @@ $green:   #859900;
             color: $base1 !important;
         }
 
-        .sy0 // symbol
+        .sy0,.sy1,sy2 // symbol
         {
             color: $base1 !important;
         }
@@ -142,6 +157,21 @@ $green:   #859900;
             color: $violet !important;
         }
 
+        .re0 // element
+        {
+            color: $blue !important;
+        }
+        
+        .re1, .re2 // rep
+        {
+            color: $green !important;
+        }
+
+        .re9 // rep body
+        {
+            color: $base0 !important;
+        }
+        
         .coMULTI // comments
         {
             color: $base01 !important;
