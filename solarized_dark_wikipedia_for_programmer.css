@@ -1,4 +1,7 @@
 /*
+  My original code is public domain
+  */
+/*
   Credits
   */
 /*
@@ -75,19 +78,45 @@ THE SOFTWARE.
     background-color: #002b36 !important;
     color: #839496 !important;
   }
-  code .kw1,
-  pre .kw1,
-  .mw-code .kw1 {
-    color: #859900 !important;
+  code .nu13,
+  pre .nu13,
+  .mw-code .nu13 {
+    color: #dc322f !important;
   }
+  code .kw1,
   code .kw2,
+  code .kw5,
+  code .kw8,
+  code .re1, code .re2,
+  pre .kw1,
   pre .kw2,
-  .mw-code .kw2 {
+  pre .kw5,
+  pre .kw8,
+  pre .re1,
+  pre .re2,
+  .mw-code .kw1,
+  .mw-code .kw2,
+  .mw-code .kw5,
+  .mw-code .kw8,
+  .mw-code .re1,
+  .mw-code .re2 {
     color: #859900 !important;
   }
   code .kw3,
+  code .kw6,
+  code .kw7,
+  code .me1,
+  code .re0,
   pre .kw3,
-  .mw-code .kw3 {
+  pre .kw6,
+  pre .kw7,
+  pre .me1,
+  pre .re0,
+  .mw-code .kw3,
+  .mw-code .kw6,
+  .mw-code .kw7,
+  .mw-code .me1,
+  .mw-code .re0 {
     color: #268bd2 !important;
   }
   code .kw4,
@@ -95,67 +124,52 @@ THE SOFTWARE.
   .mw-code .kw4 {
     color: #b58900 !important;
   }
-  code .kw5,
-  pre .kw5,
-  .mw-code .kw5 {
-    color: #859900 !important;
-  }
-  code .me1,
-  pre .me1,
-  .mw-code .me1 {
-    color: #268bd2 !important;
-  }
-  code .st0,
-  pre .st0,
-  .mw-code .st0 {
-    background-color: #002b36 !important;
-    color: #2aa198 !important;
-  }
-  code .nu0,
-  pre .nu0,
-  .mw-code .nu0 {
-    color: #93a1a1 !important;
-  }
-  code .br0,
-  pre .br0,
-  .mw-code .br0 {
-    color: #93a1a1 !important;
-  }
-  code .sy0, code .sy1, code sy2,
-  pre .sy0,
-  pre .sy1,
-  pre sy2,
-  .mw-code .sy0,
-  .mw-code .sy1,
-  .mw-code sy2 {
-    color: #93a1a1 !important;
-  }
+  code .es0,
   code .es1,
+  pre .es0,
   pre .es1,
+  .mw-code .es0,
   .mw-code .es1 {
     color: #6c71c4 !important;
   }
-  code .re0,
-  pre .re0,
-  .mw-code .re0 {
-    color: #268bd2 !important;
+  code .re5,
+  pre .re5,
+  .mw-code .re5 {
+    color: #d33682 !important;
   }
-  code .re1, code .re2,
-  pre .re1,
-  pre .re2,
-  .mw-code .re1,
-  .mw-code .re2 {
-    color: #859900 !important;
+  code .br0,
+  code .nu0,
+  code .sy0,
+  code .sy1,
+  code .sy2,
+  code .coMULTI,
+  pre .br0,
+  pre .nu0,
+  pre .sy0,
+  pre .sy1,
+  pre .sy2,
+  pre .coMULTI,
+  .mw-code .br0,
+  .mw-code .nu0,
+  .mw-code .sy0,
+  .mw-code .sy1,
+  .mw-code .sy2,
+  .mw-code .coMULTI {
+    color: #586e75 !important;
   }
   code .re9,
   pre .re9,
   .mw-code .re9 {
     color: #839496 !important;
   }
-  code .coMULTI,
-  pre .coMULTI,
-  .mw-code .coMULTI {
-    color: #586e75 !important;
+  code .st0,
+  code .st_h,
+  pre .st0,
+  pre .st_h,
+  .mw-code .st0,
+  .mw-code .st_h {
+    background-color: #002b36 !important;
+    color: #2aa198 !important;
   }
 
   a {
@@ -169,3 +183,5 @@ THE SOFTWARE.
     color: #dc322f !important;
   }
 }
+
+/*# sourceMappingURL=solarized_dark_wikipedia_for_programmer.css.map */

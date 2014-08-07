@@ -1,4 +1,8 @@
 /*
+  My original code is public domain
+  */
+
+/*
   Credits
   */
 
@@ -101,17 +105,25 @@ $green:   #859900;
         background-color: $base03 !important;
         color:            $base0  !important;
 
-        .kw1 // syntax keyword
+        .nu13
         {
-            color: $green !important;
+            color: $red !important;
         }
         
-        .kw2 // reserved keyword
+        .kw1, // syntax keyword
+        .kw2, // reserved keyword
+        .kw5, // reserved keyword
+        .kw8,
+        .re1,.re2 // rep
         {
             color: $green !important;
         }
 
-        .kw3 // function
+        .kw3, // function
+        .kw6,
+        .kw7,
+        .me1, //method
+        .re0, // element
         {
             color: $blue !important;
         }
@@ -121,50 +133,25 @@ $green:   #859900;
             color: $yellow !important;
         }
 
-        .kw5 // reserved keyword
-        {
-            color: $green !important;
-        }
-
-        .me1 //method
-        {
-            color: $blue !important;
-        }
-        
-        .st0 // string
-        {
-            background-color: $base03 !important;
-            color:            $cyan   !important;
-        }
-
-        .nu0 // number
-        {
-            color: $base1 !important;
-        }
-
-        .br0 // bracket
-        {
-            color: $base1 !important;
-        }
-
-        .sy0,.sy1,sy2 // symbol
-        {
-            color: $base1 !important;
-        }
-
+        .es0,
         .es1 // escaped
         {
             color: $violet !important;
         }
 
-        .re0 // element
+        .re5
         {
-            color: $blue !important;
+            color: $magenta !important;
         }
         
-        .re1, .re2 // rep
+        .br0, // bracket
+        .nu0, // number
+        .sy0,
+        .sy1,
+        .sy2, // symbol
+        .coMULTI // comments
         {
-            color: $green !important;
+            color: $base01 !important;
         }
 
         .re9 // rep body
@@ -172,10 +159,13 @@ $green:   #859900;
             color: $base0 !important;
         }
         
-        .coMULTI // comments
+        .st0, // string
+        .st_h
         {
-            color: $base01 !important;
+            background-color: $base03 !important;
+            color:            $cyan   !important;
         }
+
     }
     
     a
