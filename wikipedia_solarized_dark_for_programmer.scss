@@ -1,15 +1,17 @@
 /*
-  My original code is public domain
+  My original code module is CC0 - Public Domain.
   */
 
 /*
-  Credits
+  Credit
   */
 
 /*
   Based on solarized http://ethanschoonover.com/solarized
+  */
 
-Copyright (c) 2011 Ethan Schoonover
+/*
+  Copyright (c) 2011 Ethan Schoonover
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -179,7 +181,7 @@ $green:   #859900;
         color: $red !important;
     }
 
-    .languageSelector
+    .languageSelector // button
     {
         background-color: $blue  !important;
         color:            $green !important;
