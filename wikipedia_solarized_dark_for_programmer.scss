@@ -59,7 +59,9 @@ $green:   #859900;
     #simpleSearch,
     #searchInput,
     #searchButton,
-    .toc
+    #mw-mf-page-center,
+    .toc,
+    .header
     {
         background-color: $base03   !important;
         color:            $base0    !important;
@@ -74,17 +76,11 @@ $green:   #859900;
         color:            $base0    !important;
 
         background-image: none !important;
-
-        ul li span
-        {
-            margin:  1px;
-            padding: 1px;
-            border: medium solid $base02 !important;
-        }
     }
 
     
-    div#content
+    div#content,
+    div#content_wrapper
     {
         background-color: $base03 !important;
         color:            $base0  !important;
@@ -183,4 +179,9 @@ $green:   #859900;
         color: $red !important;
     }
 
+    .languageSelector
+    {
+        background-color: $blue  !important;
+        color:            $green !important;
+    }
 }

@@ -38,7 +38,9 @@ THE SOFTWARE.
   #simpleSearch,
   #searchInput,
   #searchButton,
-  .toc {
+  #mw-mf-page-center,
+  .toc,
+  .header {
     background-color: #002b36 !important;
     color: #839496 !important;
   }
@@ -51,16 +53,9 @@ THE SOFTWARE.
     color: #839496 !important;
     background-image: none !important;
   }
-  #p-views ul li span,
-  #p-namespaces ul li span,
-  ul li ul li span,
-  ul li span ul li span {
-    margin: 1px;
-    padding: 1px;
-    border: medium solid #073642 !important;
-  }
 
-  div#content {
+  div#content,
+  div#content_wrapper {
     background-color: #002b36 !important;
     color: #839496 !important;
     border-color: #657b83 !important;
@@ -181,6 +176,11 @@ THE SOFTWARE.
 
   .new {
     color: #dc322f !important;
+  }
+
+  .languageSelector {
+    background-color: #268bd2 !important;
+    color: #859900 !important;
   }
 }
 
