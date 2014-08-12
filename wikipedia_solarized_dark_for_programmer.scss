@@ -51,6 +51,21 @@ $green:   #859900;
 
 @-moz-document domain('wikipedia.org')
 {
+    a
+    {
+        color: $blue !important;
+
+        :visited
+        {
+            color: $violet !important;
+        }
+    }
+    
+    .new // undefined page
+    {
+        color: $red !important;
+    }
+
     body,
     table,
     ul,
@@ -82,18 +97,25 @@ $green:   #859900;
 
     
     div#content,
-    div#content_wrapper
+    div#content_wrapper // mobile
     {
         background-color: $base03 !important;
         color:            $base0  !important;
         border-color:     $base00 !important;
     }
 
-    h1,h2,h3,h4,h5,h6
+    h1,h2,h3,h4,h5,h6,
+    blockquote
     {
         background-color: $base02 !important;
         color:            $base1  !important;
         border-color:     $base0  !important;
+    }
+    
+    .languageSelector // button
+    {
+        background-color: $blue  !important;
+        color:            $green !important;
     }
 
     code,
@@ -164,26 +186,5 @@ $green:   #859900;
             color:            $cyan   !important;
         }
 
-    }
-    
-    a
-    {
-        color: $blue !important;
-
-        :visited
-        {
-            color: $violet !important;
-        }
-    }
-    
-    .new // undefined page
-    {
-        color: $red !important;
-    }
-
-    .languageSelector // button
-    {
-        background-color: $blue  !important;
-        color:            $green !important;
     }
 }

@@ -29,6 +29,17 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 @-moz-document domain('wikipedia.org') {
+  a {
+    color: #268bd2 !important;
+  }
+  a :visited {
+    color: #6c71c4 !important;
+  }
+
+  .new {
+    color: #dc322f !important;
+  }
+
   body,
   table,
   ul,
@@ -62,10 +73,16 @@ THE SOFTWARE.
     border-color: #657b83 !important;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6,
+  blockquote {
     background-color: #073642 !important;
     color: #93a1a1 !important;
     border-color: #839496 !important;
+  }
+
+  .languageSelector {
+    background-color: #268bd2 !important;
+    color: #859900 !important;
   }
 
   code,
@@ -166,22 +183,6 @@ THE SOFTWARE.
   .mw-code .st_h {
     background-color: #002b36 !important;
     color: #2aa198 !important;
-  }
-
-  a {
-    color: #268bd2 !important;
-  }
-  a :visited {
-    color: #6c71c4 !important;
-  }
-
-  .new {
-    color: #dc322f !important;
-  }
-
-  .languageSelector {
-    background-color: #268bd2 !important;
-    color: #859900 !important;
   }
 }
 
