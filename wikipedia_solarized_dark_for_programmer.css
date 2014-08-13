@@ -52,9 +52,11 @@ THE SOFTWARE.
   #searchButton,
   #mw-mf-page-center,
   .toc,
-  .header {
+  .header,
+  .thumbinner {
     background-color: #002b36 !important;
     color: #839496 !important;
+    border-color: #586e75 !important;
   }
 
   #p-views,
@@ -63,14 +65,14 @@ THE SOFTWARE.
   ul li span {
     background-color: #002b36 !important;
     color: #839496 !important;
-    background-image: none !important;
+    background-image: none    !important;
   }
 
   div#content,
   div#content_wrapper {
     background-color: #002b36 !important;
     color: #839496 !important;
-    border-color: #657b83 !important;
+    border-color: #586e75 !important;
   }
 
   h1, h2, h3, h4, h5, h6,

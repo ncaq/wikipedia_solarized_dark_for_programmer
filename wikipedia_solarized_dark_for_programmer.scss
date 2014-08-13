@@ -78,10 +78,12 @@ $green:   #859900;
     #searchButton,
     #mw-mf-page-center,
     .toc,
-    .header
+    .header,
+    .thumbinner
     {
-        background-color: $base03   !important;
-        color:            $base0    !important;
+        background-color: $base03 !important;
+        color:            $base0  !important;
+        border-color:     $base01 !important;
     }
 
     #p-views,
@@ -89,10 +91,9 @@ $green:   #859900;
     ul li,
     ul li span
     {
-        background-color: $base03   !important;
-        color:            $base0    !important;
-
-        background-image: none !important;
+        background-color: $base03 !important;
+        color:            $base0  !important;
+        background-image: none    !important;
     }
 
     
@@ -101,7 +102,7 @@ $green:   #859900;
     {
         background-color: $base03 !important;
         color:            $base0  !important;
-        border-color:     $base00 !important;
+        border-color:     $base01 !important;
     }
 
     h1,h2,h3,h4,h5,h6,
