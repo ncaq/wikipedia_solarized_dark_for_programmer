@@ -2,5 +2,7 @@
 
 !.gitignore
 
+!*.js
+
 !*.css
 !*.scss
