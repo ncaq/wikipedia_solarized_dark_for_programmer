@@ -51,6 +51,65 @@ $green:   #859900;
 
 @-moz-document domain('wikipedia.org')
 {
+    body,
+    table,
+    ul,
+    li,
+    #mw-head,
+    #footer,
+    #catlinks,
+    #simpleSearch,
+    #searchInput,
+    #searchButton,
+    #mw-mf-page-center,
+    #mw-mf-last-modified,
+    div#content,
+    div#content_wrapper, // mobile
+    .toc,
+    .toc-mobile,
+    .header,
+    .thumbinner
+    {
+        background-color: $base03 !important;
+        color:            $base0  !important;
+        border-color:     $base01 !important;
+    }
+
+    .thumbcaption
+    {
+        background-color: $base03 !important;
+        color:            $base00 !important;
+    }
+    
+    #p-views,
+    #p-namespaces,
+    ul li,
+    ul li span
+    {
+        background-color: $base03 !important;
+        color:            $base0  !important;
+        background-image: none    !important;
+    }
+
+    h1,h2,h3,h4,h5,h6,
+    blockquote
+    {
+        background-color: $base02 !important;
+        color:            $base1  !important;
+        border-color:     $base0  !important;
+    }
+    
+    .languageSelector // button
+    {
+        background-color: $blue   !important;
+        color:            $base03 !important;
+    }
+
+    img
+    {
+        background-color: #FFFFFF !important;
+    }
+    
     a
     {
         color: $blue !important;
@@ -64,59 +123,6 @@ $green:   #859900;
     .new // undefined page
     {
         color: $red !important;
-    }
-
-    body,
-    table,
-    ul,
-    li,
-    #mw-head,
-    #footer,
-    #catlinks,
-    #simpleSearch,
-    #searchInput,
-    #searchButton,
-    #mw-mf-page-center,
-    .toc,
-    .header,
-    .thumbinner
-    {
-        background-color: $base03 !important;
-        color:            $base0  !important;
-        border-color:     $base01 !important;
-    }
-
-    #p-views,
-    #p-namespaces,
-    ul li,
-    ul li span
-    {
-        background-color: $base03 !important;
-        color:            $base0  !important;
-        background-image: none    !important;
-    }
-
-    
-    div#content,
-    div#content_wrapper // mobile
-    {
-        background-color: $base03 !important;
-        color:            $base0  !important;
-        border-color:     $base01 !important;
-    }
-
-    h1,h2,h3,h4,h5,h6,
-    blockquote
-    {
-        background-color: $base02 !important;
-        color:            $base1  !important;
-        border-color:     $base0  !important;
-    }
-    
-    .languageSelector // button
-    {
-        background-color: $blue  !important;
-        color:            $green !important;
     }
 
     code,
@@ -186,6 +192,5 @@ $green:   #859900;
             background-color: $base03 !important;
             color:            $cyan   !important;
         }
-
     }
 }
