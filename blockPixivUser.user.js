@@ -5,7 +5,11 @@
 // @include        *www.pixiv.net/*
 // ==/UserScript==
 
-blackList = new Array
+// jshint browser: true
+// jshint globalstrict: true
+"use strict";
+
+var blackList = new Array
 (
     "1086026",
     "11609542",
@@ -19,8 +23,6 @@ blackList = new Array
 
 function userMain(docu)
 {
-    console.log("start blockPixivUser");
-
     Array.prototype.map.call(Array.prototype.filter.call(docu.querySelectorAll(".image-item > a.user"),
                                                          function(x)
                                                          {
