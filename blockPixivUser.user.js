@@ -21,9 +21,9 @@ var blackList = new Array
     "6040862"
 );
 
-function userMain(docu)
+function searchAndDestroy(doc)
 {
-    Array.prototype.map.call(Array.prototype.filter.call(docu.querySelectorAll(".image-item > a.user"),
+    Array.prototype.map.call(Array.prototype.filter.call(doc.querySelectorAll(".image-item > a.user"),
                                                          function(x)
                                                          {
                                                              return -1 != blackList.indexOf(x.getAttribute("data-user_id"));
@@ -38,12 +38,12 @@ function userMain(docu)
 window.addEventListener('load',
                         function()
                         {
-                            userMain(document);
+                            searchAndDestroy(document);
                         },false);
 
 document.body.addEventListener('AutoPagerize_DOMNodeInserted',
                                function(evt)
                                {
                                    var node = evt.target;
-                                   userMain(node);
+                                   searchAndDestroy(node);
                                }, false);
