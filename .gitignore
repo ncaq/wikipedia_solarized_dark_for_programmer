@@ -1,8 +1,12 @@
 *
 
-!.gitignore
-
 !*.js
 
 !*.css
+!*.map
 !*.scss
+
+!css
+!js
+
+!.gitignore
