@@ -1,0 +1,129 @@
+/*
+  syosetu.com - solarized dark
+  */
+
+/*
+  My original code module is CC0 - Public Domain.
+  */
+
+/*
+  Credit
+  */
+
+/*
+  Based on solarized http://ethanschoonover.com/solarized
+  */
+
+/*
+  Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+$base03:  #002b36;
+$base02:  #073642;
+$base01:  #586e75;
+$base00:  #657b83;
+$base0:   #839496;
+$base1:   #93a1a1;
+$base2:   #eee8d5;
+$base3:   #fdf6e3;
+$yellow:  #b58900;
+$orange:  #cb4b16;
+$red:     #dc322f;
+$magenta: #d33682;
+$violet:  #6c71c4;
+$blue:    #268bd2;
+$cyan:    #2aa198;
+$green:   #859900;
+
+@-moz-document regexp('^https?://ncode\\.syosetu\\.com/[^/]*/$'), regexp('^https?://ncode\\.syosetu\\.com/[^/]*/[^/\\D]*/$')
+{
+    
+    body,
+    input,
+    #novel_color,
+    #menu_on,
+    #hyoukalan,
+    #novel_attention,
+    #recommend,
+    #footer,
+    .novel_hyouka,
+    .recommend_novel,
+    .contents2,
+    {
+        background-color: $base03 !important;
+        color:            $base0  !important;
+    }
+
+    #novel_header,
+    .contents1,
+    .nothing
+    {
+        background:    none;
+        
+        border-color:  $base01   !important;
+        border-top:    solid 1px !important;
+        border-bottom: solid 1px !important;
+    }
+
+    input,
+    #hyoukalan,
+    #novel_attention,
+    .genre
+    {
+        border-color: $base01 !important;
+    }
+
+    .novel_hyouka label
+    {
+        color: $yellow !important;
+    }
+    
+    .novel_title,
+    .novel_subtitle,
+    .novel_writername,
+    .chapter_title,
+    .genre
+    {
+        background-color: $base02 !important;
+        color:            $base1  !important;
+    }
+
+    #pageBottom,
+    #pageTop
+    {
+        display: none !important;
+    }
+    
+    img
+    {
+        background-color: #FFFFFF !important;
+    }
+    
+    a
+    {
+        color: $blue !important;
+
+        :visited
+        {
+            color: $violet !important;
+        }
+    }
+}
