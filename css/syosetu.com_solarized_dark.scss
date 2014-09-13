@@ -74,26 +74,23 @@ $green:   #859900;
         color:            $base0  !important;
     }
 
-    #header_main, // mobile
-    #head_nav, // mobile
+    #head_nav li, // mobile
+    .link_back // mobile
     {
-        border: solid 1px $base01   !important;
-    }
-
-    #head_nav li // mobile
-    {
-        border-right: solid 1px $base01 !important;
+        border-color: $base01 !important;
     }
 
     #novel_header,
+    #header_main, // mobile
+    #head_nav, // mobile
     .contents1,
     .nothing,
+    .novel_bn, // mobile
     {
         background:    none;
         
         border-color:  $base01   !important;
-        border-top:    solid 1px !important;
-        border-bottom: solid 1px !important;
+    /* border-bottom: solid 1px !important; */
     }
 
     input,

@@ -49,22 +49,20 @@ THE SOFTWARE.
     color: #839496 !important;
   }
 
-  #header_main,
-  #head_nav {
-    border: solid 1px #586e75 !important;
-  }
-
-  #head_nav li {
-    border-right: solid 1px #586e75 !important;
+  #head_nav li,
+  .link_back {
+    border-color: #586e75 !important;
   }
 
   #novel_header,
+  #header_main,
+  #head_nav,
   .contents1,
-  .nothing {
+  .nothing,
+  .novel_bn {
     background: none;
     border-color: #586e75 !important;
-    border-top: solid 1px !important;
-    border-bottom: solid 1px !important;
+    /* border-bottom: solid 1px !important; */
   }
 
   input,
