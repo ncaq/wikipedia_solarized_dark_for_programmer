@@ -40,11 +40,22 @@ THE SOFTWARE.
   #novel_attention,
   #recommend,
   #footer,
+  #header_main,
+  #head_nav,
   .novel_hyouka,
   .recommend_novel,
   .contents2 {
     background-color: #002b36 !important;
     color: #839496 !important;
+  }
+
+  #header_main,
+  #head_nav {
+    border: solid 1px #586e75 !important;
+  }
+
+  #head_nav li {
+    border-right: solid 1px #586e75 !important;
   }
 
   #novel_header,

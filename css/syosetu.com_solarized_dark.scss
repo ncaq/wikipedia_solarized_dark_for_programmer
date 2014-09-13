@@ -64,6 +64,8 @@ $green:   #859900;
     #novel_attention,
     #recommend,
     #footer,
+    #header_main, // mobile
+    #head_nav, // mobile
     .novel_hyouka,
     .recommend_novel,
     .contents2,
@@ -72,9 +74,20 @@ $green:   #859900;
         color:            $base0  !important;
     }
 
+    #header_main, // mobile
+    #head_nav, // mobile
+    {
+        border: solid 1px $base01   !important;
+    }
+
+    #head_nav li // mobile
+    {
+        border-right: solid 1px $base01 !important;
+    }
+
     #novel_header,
     .contents1,
-    .nothing
+    .nothing,
     {
         background:    none;
         
@@ -86,7 +99,7 @@ $green:   #859900;
     input,
     #hyoukalan,
     #novel_attention,
-    .genre
+    .genre,
     {
         border-color: $base01 !important;
     }
@@ -100,14 +113,14 @@ $green:   #859900;
     .novel_subtitle,
     .novel_writername,
     .chapter_title,
-    .genre
+    .genre,
     {
         background-color: $base02 !important;
         color:            $base1  !important;
     }
 
     #pageBottom,
-    #pageTop
+    #pageTop,
     {
         display: none !important;
     }
