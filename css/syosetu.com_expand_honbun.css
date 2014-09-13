@@ -4,7 +4,7 @@
 /*
   My original code module is CC0 - Public Domain.
   */
-@-moz-document regexp('^https?://ncode\\.syosetu\\.com/[^/]*/$'), regexp('^https?://ncode\\.syosetu\\.com/[^/]*/[^/\\D]*/$') {
+@-moz-document regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/$'), regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/[^/\\D]*/$') {
   /* if big display */
   @media (orientation: landscape) and (min-width: 12in) {
     #novel_contents {

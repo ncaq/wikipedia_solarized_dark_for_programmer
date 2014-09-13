@@ -31,7 +31,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-@-moz-document regexp('^https?://ncode\\.syosetu\\.com/[^/]*/$'), regexp('^https?://ncode\\.syosetu\\.com/[^/]*/[^/\\D]*/$') {
+@-moz-document regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/$'), regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/[^/\\D]*/$') {
   body,
   input,
   #novel_color,

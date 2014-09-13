@@ -53,7 +53,7 @@ $blue:    #268bd2;
 $cyan:    #2aa198;
 $green:   #859900;
 
-@-moz-document regexp('^https?://ncode\\.syosetu\\.com/[^/]*/$'), regexp('^https?://ncode\\.syosetu\\.com/[^/]*/[^/\\D]*/$')
+@-moz-document regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/$'), regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/[^/\\D]*/$')
 {
     
     body,
