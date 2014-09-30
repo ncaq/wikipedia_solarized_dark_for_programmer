@@ -96,28 +96,20 @@ THE SOFTWARE.
     color: #dc322f !important;
   }
 
-  code,
   pre,
   .mw-code {
     background-color: #002b36 !important;
     color: #839496 !important;
   }
-  code .nu13,
   pre .nu13,
   .mw-code .nu13 {
     color: #dc322f !important;
   }
-  code .kw1,
-  code .kw2,
-  code .kw5,
-  code .kw8,
-  code .re1, code .re2,
   pre .kw1,
   pre .kw2,
   pre .kw5,
   pre .kw8,
-  pre .re1,
-  pre .re2,
+  pre .re1, pre .re2,
   .mw-code .kw1,
   .mw-code .kw2,
   .mw-code .kw5,
@@ -126,11 +118,6 @@ THE SOFTWARE.
   .mw-code .re2 {
     color: #859900 !important;
   }
-  code .kw3,
-  code .kw6,
-  code .kw7,
-  code .me1,
-  code .re0,
   pre .kw3,
   pre .kw6,
   pre .kw7,
@@ -143,30 +130,20 @@ THE SOFTWARE.
   .mw-code .re0 {
     color: #268bd2 !important;
   }
-  code .kw4,
   pre .kw4,
   .mw-code .kw4 {
     color: #b58900 !important;
   }
-  code .es0,
-  code .es1,
   pre .es0,
   pre .es1,
   .mw-code .es0,
   .mw-code .es1 {
     color: #6c71c4 !important;
   }
-  code .re5,
   pre .re5,
   .mw-code .re5 {
     color: #d33682 !important;
   }
-  code .br0,
-  code .nu0,
-  code .sy0,
-  code .sy1,
-  code .sy2,
-  code .coMULTI,
   pre .br0,
   pre .nu0,
   pre .sy0,
@@ -181,13 +158,10 @@ THE SOFTWARE.
   .mw-code .coMULTI {
     color: #586e75 !important;
   }
-  code .re9,
   pre .re9,
   .mw-code .re9 {
     color: #839496 !important;
   }
-  code .st0,
-  code .st_h,
   pre .st0,
   pre .st_h,
   .mw-code .st0,

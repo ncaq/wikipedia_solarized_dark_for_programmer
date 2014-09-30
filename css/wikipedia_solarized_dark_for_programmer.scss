@@ -129,7 +129,6 @@ $green:   #859900;
         color: $red !important;
     }
 
-    code,
     pre,
     .mw-code
     {
@@ -153,7 +152,7 @@ $green:   #859900;
         .kw3, // function
         .kw6,
         .kw7,
-        .me1, //method
+        .me1, // method
         .re0, // element
         {
             color: $blue !important;
