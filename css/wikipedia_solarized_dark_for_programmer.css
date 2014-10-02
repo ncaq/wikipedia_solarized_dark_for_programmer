@@ -70,7 +70,8 @@ THE SOFTWARE.
   }
 
   h1, h2, h3, h4, h5, h6,
-  blockquote {
+  blockquote,
+  code {
     background-color: #073642 !important;
     color: #93a1a1 !important;
     border-color: #839496 !important;
