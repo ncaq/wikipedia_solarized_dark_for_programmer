@@ -82,7 +82,8 @@ THE SOFTWARE.
     color: #002b36 !important;
   }
 
-  img {
+  img,
+  svg {
     background-color: #FFFFFF !important;
   }
 
