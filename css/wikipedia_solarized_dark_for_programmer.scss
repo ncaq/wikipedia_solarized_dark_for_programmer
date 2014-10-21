@@ -59,6 +59,10 @@ $green:   #859900;
     table,
     ul,
     li,
+    .toc,
+    .toc-mobile,
+    .header,
+    .thumbinner,
     #mw-head,
     #footer,
     #catlinks,
@@ -69,10 +73,6 @@ $green:   #859900;
     #mw-mf-last-modified,
     div#content,
     div#content_wrapper, // mobile
-    .toc,
-    .toc-mobile,
-    .header,
-    .thumbinner
     {
         background-color: $base03 !important;
         color:            $base0  !important;
@@ -85,10 +85,10 @@ $green:   #859900;
         color:            $base00 !important;
     }
     
+    ul li,
+    ul li span,
     #p-views,
     #p-namespaces,
-    ul li,
-    ul li span
     {
         background-color: $base03 !important;
         color:            $base0  !important;

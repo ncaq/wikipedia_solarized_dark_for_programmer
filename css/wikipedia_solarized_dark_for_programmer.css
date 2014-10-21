@@ -36,6 +36,10 @@ THE SOFTWARE.
   table,
   ul,
   li,
+  .toc,
+  .toc-mobile,
+  .header,
+  .thumbinner,
   #mw-head,
   #footer,
   #catlinks,
@@ -45,11 +49,7 @@ THE SOFTWARE.
   #mw-mf-page-center,
   #mw-mf-last-modified,
   div#content,
-  div#content_wrapper,
-  .toc,
-  .toc-mobile,
-  .header,
-  .thumbinner {
+  div#content_wrapper {
     background-color: #002b36 !important;
     color: #839496 !important;
     border-color: #586e75 !important;
@@ -60,10 +60,10 @@ THE SOFTWARE.
     color: #657b83 !important;
   }
 
-  #p-views,
-  #p-namespaces,
   ul li,
-  ul li span {
+  ul li span,
+  #p-views,
+  #p-namespaces {
     background-color: #002b36 !important;
     color: #839496 !important;
     background-image: none    !important;

@@ -34,6 +34,9 @@ THE SOFTWARE.
 @-moz-document regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/$'), regexp('^https?://(ncode|novel18)\\.syosetu\\.com/[^/]*/[^/\\D]*/$') {
   body,
   input,
+  .novel_hyouka,
+  .recommend_novel,
+  .contents2,
   #novel_color,
   #menu_on,
   #hyoukalan,
@@ -41,34 +44,31 @@ THE SOFTWARE.
   #recommend,
   #footer,
   #header_main,
-  #head_nav,
-  .novel_hyouka,
-  .recommend_novel,
-  .contents2 {
+  #head_nav {
     background-color: #002b36 !important;
     color: #839496 !important;
   }
 
-  #head_nav li,
-  .link_back {
+  .link_back,
+  #head_nav li {
     border-color: #586e75 !important;
   }
 
-  #novel_header,
-  #header_main,
-  #head_nav,
   .contents1,
   .nothing,
-  .novel_bn {
+  .novel_bn,
+  #novel_header,
+  #header_main,
+  #head_nav {
     background: none;
     border-color: #586e75 !important;
     /* border-bottom: solid 1px !important; */
   }
 
   input,
+  .genre,
   #hyoukalan,
-  #novel_attention,
-  .genre {
+  #novel_attention {
     border-color: #586e75 !important;
   }
 

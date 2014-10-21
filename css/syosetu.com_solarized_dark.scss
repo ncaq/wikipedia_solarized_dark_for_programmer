@@ -58,34 +58,34 @@ $green:   #859900;
     
     body,
     input,
+    .novel_hyouka,
+    .recommend_novel,
+    .contents2,
     #novel_color,
     #menu_on,
     #hyoukalan,
     #novel_attention,
     #recommend,
     #footer,
-    #header_main, // mobile
-    #head_nav, // mobile
-    .novel_hyouka,
-    .recommend_novel,
-    .contents2,
+    #header_main,               // mobile
+    #head_nav,                  // mobile
     {
         background-color: $base03 !important;
         color:            $base0  !important;
     }
 
-    #head_nav li, // mobile
-    .link_back // mobile
+    .link_back,                 // mobile
+    #head_nav li,               // mobile
     {
         border-color: $base01 !important;
     }
 
-    #novel_header,
-    #header_main, // mobile
-    #head_nav, // mobile
     .contents1,
     .nothing,
-    .novel_bn, // mobile
+    .novel_bn,                  // mobile
+    #novel_header,
+    #header_main,               // mobile
+    #head_nav,                  // mobile
     {
         background:    none;
         
@@ -94,9 +94,9 @@ $green:   #859900;
     }
 
     input,
+    .genre,
     #hyoukalan,
     #novel_attention,
-    .genre,
     {
         border-color: $base01 !important;
     }
