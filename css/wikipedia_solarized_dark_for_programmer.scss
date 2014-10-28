@@ -61,7 +61,6 @@ $green:   #859900;
     ul,
     li,
     th,
-    span,
     .header,                    // mobile
     .top-bar,                   // mobile
     .vectorTabs,
@@ -73,9 +72,6 @@ $green:   #859900;
     #mw-head,
     #p-views,
     #simpleSearch,
-    /* #mw-mf-page-center, */
-    /* #mw-mf-last-modified, */
-    /* div#content, */
     #content_wrapper,           // mobile
     #footer,                    // mobile
     {
@@ -143,7 +139,7 @@ $green:   #859900;
     {
         background-color: $base03 !important;
         color:            $base0  !important;
-        
+
         border-color:     $base01 !important;
         padding:          0em     !important;
 
@@ -191,10 +187,11 @@ $green:   #859900;
         .sy0,
         .sy1,
         .sy2, // symbol
-        .coMULTI // comments
-         {
-             color: $base01 !important;
-         }
+        .coMULTI, // comments
+        .co1,    // comments
+        {
+            color: $base01 !important;
+        }
 
         .re9 // rep body
         {

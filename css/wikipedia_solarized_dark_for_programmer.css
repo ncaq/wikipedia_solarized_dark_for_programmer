@@ -38,7 +38,6 @@ THE SOFTWARE.
   ul,
   li,
   th,
-  span,
   .header,
   .top-bar,
   .vectorTabs,
@@ -173,18 +172,21 @@ THE SOFTWARE.
   pre .sy1,
   pre .sy2,
   pre .coMULTI,
+  pre .co1,
   code .br0,
   code .nu0,
   code .sy0,
   code .sy1,
   code .sy2,
   code .coMULTI,
+  code .co1,
   .mw-code .br0,
   .mw-code .nu0,
   .mw-code .sy0,
   .mw-code .sy1,
   .mw-code .sy2,
-  .mw-code .coMULTI {
+  .mw-code .coMULTI,
+  .mw-code .co1 {
     color: #586e75 !important;
   }
   pre .re9,
