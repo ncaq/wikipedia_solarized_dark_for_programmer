@@ -57,6 +57,10 @@ THE SOFTWARE.
     background-image: none    !important;
   }
 
+  span {
+    background-image: none !important;
+  }
+
   #footer {
     margin: 0em !important;
   }
