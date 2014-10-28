@@ -1,15 +1,15 @@
 /*
   Wikipedia - Solarized Dark for programmer
-  */
+*/
 /*
   My original code module is CC0 - Public Domain.
-  */
+*/
 /*
   Credit
-  */
+*/
 /*
   Based on solarized http://ethanschoonover.com/solarized
-  */
+*/
 /*
   Copyright (c) 2011 Ethan Schoonover
 
@@ -34,25 +34,32 @@ THE SOFTWARE.
 @-moz-document domain('wikipedia.org') {
   body,
   table,
+  input.search,
   ul,
   li,
+  th,
+  span,
+  .header,
+  .top-bar,
+  .vectorTabs,
+  .mw-body,
   .toc,
   .toc-mobile,
-  .header,
-  .thumbinner,
+  .catlinks,
+  .content,
   #mw-head,
-  #footer,
-  #catlinks,
+  #p-views,
   #simpleSearch,
-  #searchInput,
-  #searchButton,
-  #mw-mf-page-center,
-  #mw-mf-last-modified,
-  div#content,
-  div#content_wrapper {
+  #content_wrapper,
+  #footer {
     background-color: #002b36 !important;
     color: #839496 !important;
     border-color: #586e75 !important;
+    background-image: none    !important;
+  }
+
+  #footer {
+    margin: 0em !important;
   }
 
   .thumbcaption {
@@ -60,18 +67,8 @@ THE SOFTWARE.
     color: #657b83 !important;
   }
 
-  ul li,
-  ul li span,
-  #p-views,
-  #p-namespaces {
-    background-color: #002b36 !important;
-    color: #839496 !important;
-    background-image: none    !important;
-  }
-
   h1, h2, h3, h4, h5, h6,
-  blockquote,
-  code {
+  blockquote {
     background-color: #073642 !important;
     color: #93a1a1 !important;
     border-color: #839496 !important;
@@ -82,9 +79,14 @@ THE SOFTWARE.
     color: #002b36 !important;
   }
 
-  img,
-  svg {
+  img {
     background-color: #FFFFFF !important;
+  }
+
+  svg,
+  g {
+    stroke: #839496 !important;
+    fill: #839496 !important;
   }
 
   a {
@@ -99,11 +101,15 @@ THE SOFTWARE.
   }
 
   pre,
+  code,
   .mw-code {
     background-color: #002b36 !important;
     color: #839496 !important;
+    border-color: #586e75 !important;
+    padding: 0em     !important;
   }
   pre .nu13,
+  code .nu13,
   .mw-code .nu13 {
     color: #dc322f !important;
   }
@@ -112,6 +118,12 @@ THE SOFTWARE.
   pre .kw5,
   pre .kw8,
   pre .re1, pre .re2,
+  code .kw1,
+  code .kw2,
+  code .kw5,
+  code .kw8,
+  code .re1,
+  code .re2,
   .mw-code .kw1,
   .mw-code .kw2,
   .mw-code .kw5,
@@ -125,6 +137,11 @@ THE SOFTWARE.
   pre .kw7,
   pre .me1,
   pre .re0,
+  code .kw3,
+  code .kw6,
+  code .kw7,
+  code .me1,
+  code .re0,
   .mw-code .kw3,
   .mw-code .kw6,
   .mw-code .kw7,
@@ -133,16 +150,20 @@ THE SOFTWARE.
     color: #268bd2 !important;
   }
   pre .kw4,
+  code .kw4,
   .mw-code .kw4 {
     color: #b58900 !important;
   }
   pre .es0,
   pre .es1,
+  code .es0,
+  code .es1,
   .mw-code .es0,
   .mw-code .es1 {
     color: #6c71c4 !important;
   }
   pre .re5,
+  code .re5,
   .mw-code .re5 {
     color: #d33682 !important;
   }
@@ -152,6 +173,12 @@ THE SOFTWARE.
   pre .sy1,
   pre .sy2,
   pre .coMULTI,
+  code .br0,
+  code .nu0,
+  code .sy0,
+  code .sy1,
+  code .sy2,
+  code .coMULTI,
   .mw-code .br0,
   .mw-code .nu0,
   .mw-code .sy0,
@@ -161,11 +188,14 @@ THE SOFTWARE.
     color: #586e75 !important;
   }
   pre .re9,
+  code .re9,
   .mw-code .re9 {
     color: #839496 !important;
   }
   pre .st0,
   pre .st_h,
+  code .st0,
+  code .st_h,
   .mw-code .st0,
   .mw-code .st_h {
     background-color: #002b36 !important;

@@ -1,18 +1,18 @@
 /*
   Wikipedia - Solarized Dark for programmer
-  */
+*/
 
 /*
   My original code module is CC0 - Public Domain.
-  */
+*/
 
 /*
   Credit
-  */
+*/
 
 /*
   Based on solarized http://ethanschoonover.com/solarized
-  */
+*/
 
 /*
   Copyright (c) 2011 Ethan Schoonover
@@ -57,47 +57,47 @@ $green:   #859900;
 {
     body,
     table,
+    input.search,               // .search is for mobile.Because original source code was appended !important;
     ul,
     li,
+    th,
+    span,
+    .header,                    // mobile
+    .top-bar,                   // mobile
+    .vectorTabs,
+    .mw-body,
     .toc,
     .toc-mobile,
-    .header,
-    .thumbinner,
+    .catlinks,
+    .content,
     #mw-head,
-    #footer,
-    #catlinks,
+    #p-views,
     #simpleSearch,
-    #searchInput,
-    #searchButton,
-    #mw-mf-page-center,
-    #mw-mf-last-modified,
-    div#content,
-    div#content_wrapper, // mobile
+    /* #mw-mf-page-center, */
+    /* #mw-mf-last-modified, */
+    /* div#content, */
+    #content_wrapper,           // mobile
+    #footer,                    // mobile
     {
         background-color: $base03 !important;
         color:            $base0  !important;
         border-color:     $base01 !important;
+        background-image: none    !important;
     }
 
+    #footer
+    {
+        margin: 0em !important;
+    }
+    
     .thumbcaption
     {
         background-color: $base03 !important;
         color:            $base00 !important;
     }
-    
-    ul li,
-    ul li span,
-    #p-views,
-    #p-namespaces,
-    {
-        background-color: $base03 !important;
-        color:            $base0  !important;
-        background-image: none    !important;
-    }
 
     h1,h2,h3,h4,h5,h6,
     blockquote,
-    code
     {
         background-color: $base02 !important;
         color:            $base1  !important;
@@ -111,9 +111,15 @@ $green:   #859900;
     }
 
     img,
-    svg
     {
         background-color: #FFFFFF !important;
+    }
+
+    svg,
+    g,
+    {
+        stroke: $base0 !important;
+        fill: $base0 !important;
     }
     
     a
@@ -121,9 +127,9 @@ $green:   #859900;
         color: $blue !important;
 
         :visited
-        {
-            color: $violet !important;
-        }
+             {
+                 color: $violet !important;
+             }
     }
     
     .new // undefined page
@@ -132,10 +138,14 @@ $green:   #859900;
     }
 
     pre,
-    .mw-code
+    code,
+    .mw-code,
     {
         background-color: $base03 !important;
         color:            $base0  !important;
+        
+        border-color:     $base01 !important;
+        padding:          0em     !important;
 
         .nu13
         {
@@ -147,9 +157,9 @@ $green:   #859900;
         .kw5, // reserved keyword
         .kw8,
         .re1,.re2 // rep
-        {
-            color: $green !important;
-        }
+         {
+             color: $green !important;
+         }
 
         .kw3, // function
         .kw6,
@@ -167,9 +177,9 @@ $green:   #859900;
 
         .es0,
         .es1 // escaped
-        {
-            color: $violet !important;
-        }
+         {
+             color: $violet !important;
+         }
 
         .re5
         {
@@ -182,9 +192,9 @@ $green:   #859900;
         .sy1,
         .sy2, // symbol
         .coMULTI // comments
-        {
-            color: $base01 !important;
-        }
+         {
+             color: $base01 !important;
+         }
 
         .re9 // rep body
         {
@@ -193,9 +203,9 @@ $green:   #859900;
         
         .st0, // string
         .st_h
-        {
-            background-color: $base03 !important;
-            color:            $cyan   !important;
-        }
+         {
+             background-color: $base03 !important;
+             color:            $cyan   !important;
+         }
     }
 }
