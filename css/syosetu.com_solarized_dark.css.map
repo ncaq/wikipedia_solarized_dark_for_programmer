@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAuDA,gJAmFC;EAhFG;;;;;;;;;;;;WAaA;IACI,gBAAgB,EAAE,kBAAkB;IACpC,KAAK,EAAa,kBAAkB;;;EAGxC;cAEA;IACI,YAAY,EAAE,kBAAkB;;;EAGpC;;;;;WAMA;IACI,UAAU,EAAK,IAAI;IAEnB,YAAY,EAAG,kBAAoB;;;;EAIvC;;;kBAIA;IACI,YAAY,EAAE,kBAAkB;;;EAGpC,mBACA;IACI,KAAK,EAAE,kBAAkB;;;EAG7B;;;;QAKA;IACI,gBAAgB,EAAE,kBAAkB;IACpC,KAAK,EAAa,kBAAkB;;;EAGxC;UAEA;IACI,OAAO,EAAE,eAAe;;;EAG5B,GACA;IACI,gBAAgB,EAAE,kBAAkB;;;EAGxC,CACA;IACI,KAAK,EAAE,kBAAgB;;EAEvB,UACA;IACI,KAAK,EAAE,kBAAkB",
-"sources": ["syosetu.com_solarized_dark.scss"],
-"names": [],
-"file": "syosetu.com_solarized_dark.css"
-}
