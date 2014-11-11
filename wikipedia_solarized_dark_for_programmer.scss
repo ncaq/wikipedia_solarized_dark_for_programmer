@@ -114,8 +114,18 @@ $green:   #859900;
     img,
     {
         background-color: #FFFFFF !important;
+        border: none !important;
     }
 
+    div.thumbinner,
+    .thumb,
+    {
+        background-color: $base03 !important;
+
+        border: none !important;
+        padding: 0px !important;
+    }
+    
     svg,
     g,
     {

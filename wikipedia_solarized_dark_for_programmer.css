@@ -84,6 +84,14 @@ THE SOFTWARE.
 
   img {
     background-color: #FFFFFF !important;
+    border: none !important;
+  }
+
+  div.thumbinner,
+  .thumb {
+    background-color: #002b36 !important;
+    border: none !important;
+    padding: 0px !important;
   }
 
   svg,
