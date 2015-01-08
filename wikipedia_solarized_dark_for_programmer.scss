@@ -81,6 +81,14 @@ $green:   #859900;
         background-image: none    !important;
     }
 
+    .navbox-even                // reverse color
+    {
+        background-color: $base3  !important;
+        color:            $base00 !important;
+        border-color:     $base1  !important;
+        background-image: none    !important;
+    }
+
     span
     {
         background-image: none !important;

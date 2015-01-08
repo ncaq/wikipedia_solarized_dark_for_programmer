@@ -57,6 +57,13 @@ THE SOFTWARE.
     background-image: none    !important;
   }
 
+  .navbox-even {
+    background-color: #fdf6e3 !important;
+    color: #657b83 !important;
+    border-color: #93a1a1 !important;
+    background-image: none    !important;
+  }
+
   span {
     background-image: none !important;
   }
