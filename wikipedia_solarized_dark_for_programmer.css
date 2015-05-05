@@ -63,7 +63,8 @@ For more information on the LICENSE file.
     color: #002b36 !important;
   }
 
-  img {
+  img,
+  svg {
     background-color: #FFFFFF !important;
     border: none !important;
   }
@@ -73,12 +74,6 @@ For more information on the LICENSE file.
     background-color: #002b36 !important;
     border: none !important;
     padding: 0px !important;
-  }
-
-  svg,
-  g {
-    stroke: #839496 !important;
-    fill: #839496 !important;
   }
 
   a {

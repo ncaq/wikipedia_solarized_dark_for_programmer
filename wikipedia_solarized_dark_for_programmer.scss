@@ -91,6 +91,7 @@ $green:   #859900;
     }
 
     img,
+    svg,
     {
         background-color: #FFFFFF !important;
         border: none !important;
@@ -103,13 +104,6 @@ $green:   #859900;
 
         border: none !important;
         padding: 0px !important;
-    }
-
-    svg,
-    g,
-    {
-        stroke: $base0 !important;
-        fill: $base0 !important;
     }
 
     a
