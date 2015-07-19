@@ -24,6 +24,8 @@ $blue:    #268bd2;
 $cyan:    #2aa198;
 $green:   #859900;
 
+$royalBlue: #4169e1;
+
 @-moz-document domain('wikipedia.org')
 {
     body,
@@ -150,9 +152,17 @@ $green:   #859900;
         .kw6,
         .kw7,
         .me1, // method
+        .nc,
+        .nf,
         .re0, // element
         {
             color: $blue !important;
+        }
+
+        .nv,
+        .ss,
+        {
+            color: $royalBlue !important;
         }
 
         .kw4 // type
