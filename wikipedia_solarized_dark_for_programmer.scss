@@ -28,63 +28,49 @@ $royalBlue: #4169e1;
 
 @-moz-document domain('wikipedia.org')
 {
-    body,
-    table,
-    input.search,               // .search is for mobile.Because original source code was appended !important;
-    ul,
-    li,
-    th,
-    .header,                    // mobile
-    .top-bar,                   // mobile
-    .vectorTabs,
-    .mw-body,
-    .toc,
-    .toc-mobile,
+    html, body, div, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, ins, em, img, small, strike, strong, sub, sup, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, textarea, button, select, audio, video,
     .catlinks,
-    .content,
-    #mw-head,
-    #p-views,
+    .infobox,
+    .mw-body,
+    .plainlinks,
+    .vertical-navbox,
+    div.vectorTabs span,
+    input.search,               // mobile
     #simpleSearch,
-    #content_wrapper,           // mobile
-    #footer,                    // mobile
+    #toc,
     {
         background-color: $base03 !important;
-        color:            $base0  !important;
-        border-color:     $base01 !important;
         background-image: none    !important;
+        border-color:     $base01 !important;
+        color:            $base0  !important;
     }
 
-    .navbox-even                // reverse color
+    .navbox-even,               // reverse color
+    .navbox-subgroup,
     {
         background-color: $base3  !important;
-        color:            $base00 !important;
         border-color:     $base1  !important;
-        background-image: none    !important;
+        color:            $base00 !important;
     }
 
-    span
-    {
-        background-image: none !important;
-    }
-
-    #footer
+    #footer,
     {
         margin: 0em !important;
     }
 
-    .thumbcaption
+    .thumbcaption,
     {
         background-color: $base03 !important;
         color:            $base00 !important;
     }
 
-    h1,h2,h3,h4,h5,h6,
+    h1, h2, h3, h4, h5, h6,
     blockquote,
-    .last-modified-bar, // mobile
+    .last-modified-bar,         // mobile
     {
         background-color: $base02 !important;
-        color:            $base1  !important;
         border-color:     $base0  !important;
+        color:            $base1  !important;
     }
 
     .languageSelector // button
@@ -97,31 +83,30 @@ $royalBlue: #4169e1;
     svg,
     {
         background-color: #FFFFFF !important;
-        border: none !important;
+        border:           none    !important;
     }
 
-    div.thumbinner,
     .thumb,
+    .thumbinner,
     {
         background-color: $base03 !important;
-
-        border: none !important;
-        padding: 0px !important;
+        border:           none    !important;
+        padding:          0       !important;
     }
 
-    a
+    a,
     {
         color: $blue !important;
 
-        :visited
-             {
-                 color: $violet !important;
-             }
-    }
+        :visited,
+        {
+            color: $violet !important;
+        }
 
-    .new // undefined page
-    {
-        color: $red !important;
+        .new, // undefined page
+        {
+            color: $red !important;
+        }
     }
 
     pre,
@@ -129,9 +114,8 @@ $royalBlue: #4169e1;
     .mw-code,
     {
         background-color: $base03 !important;
-        color:            $base0  !important;
-
         border-color:     $base01 !important;
+        color:            $base0  !important;
         padding:          0em     !important;
 
         .nu13
@@ -139,23 +123,24 @@ $royalBlue: #4169e1;
             color: $red !important;
         }
 
-        .kw1, // syntax keyword
-        .kw2, // reserved keyword
-        .kw5, // reserved keyword
+        .kw1,                   // syntax keyword
+        .kw2,                   // reserved keyword
+        .kw5,                   // reserved keyword
         .kw8,
-        .re1,.re2 // rep
-         {
-             color: $green !important;
-         }
+        .re1,                   // rep
+        .re2,
+        {
+            color: $green !important;
+        }
 
-        .kw3, // function
+        .kw3,                   // function
         .kw6,
         .kw7,
-        .me1, // method
+        .me1,                   // method
         .nc,
         .nf,
         .nn,
-        .re0, // element
+        .re0,                   // element
         {
             color: $blue !important;
         }
@@ -166,43 +151,43 @@ $royalBlue: #4169e1;
             color: $royalBlue !important;
         }
 
-        .kw4 // type
+        .kw4,                   // type
         {
             color: $yellow !important;
         }
 
         .es0,
-        .es1 // escaped
-         {
-             color: $violet !important;
-         }
+        .es1,                   // escaped
+        {
+            color: $violet !important;
+        }
 
-        .re5
+        .re5,
         {
             color: $magenta !important;
         }
 
-        .br0, // bracket
-        .nu0, // number
+        .br0,                   // bracket
+        .co1,                   // comments
+        .coMULTI,               // comments
+        .nu0,                   // number
         .sy0,
         .sy1,
-        .sy2, // symbol
-        .coMULTI, // comments
-        .co1,    // comments
+        .sy2,                   // symbol
         {
             color: $base01 !important;
         }
 
-        .re9 // rep body
+        .re9,                   // rep body
         {
             color: $base0 !important;
         }
 
-        .st0, // string
-        .st_h
-         {
-             background-color: $base03 !important;
-             color:            $cyan   !important;
-         }
+        .st0,                   // string
+        .st_h,
+        {
+            background-color: $base03 !important;
+            color:            $cyan   !important;
+        }
     }
 }
