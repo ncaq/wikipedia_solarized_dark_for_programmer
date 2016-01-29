@@ -98,14 +98,19 @@ $royalBlue: #4169e1;
     {
         color: $blue !important;
 
-        :visited,
+        &:visited,
         {
             color: $violet !important;
         }
 
-        .new, // undefined page
+        &.new,
         {
             color: $red !important;
+        }
+
+        &.extiw,
+        {
+            color: $royalBlue !important;
         }
     }
 
