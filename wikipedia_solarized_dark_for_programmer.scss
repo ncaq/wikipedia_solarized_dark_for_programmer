@@ -34,7 +34,6 @@ $yellow:    #b58900;
     .plainlinks,
     .vertical-navbox,
     div.vectorTabs span,
-    input.search,               // mobile
     #simpleSearch,
     #toc,
     {
@@ -65,7 +64,6 @@ $yellow:    #b58900;
 
     h1, h2, h3, h4, h5, h6,
     blockquote,
-    .last-modified-bar,         // mobile
     {
         background-color: $base02 !important;
         border-color:     $base0  !important;
@@ -192,5 +190,26 @@ $yellow:    #b58900;
             background-color: $base03 !important;
             color:            $cyan   !important;
         }
+    }
+}
+
+@-moz-document domain('m.wikipedia.org')
+{
+    #mw-mf-page-center,
+    input.search,
+    .toc-mobile,
+    {
+        background-color: $base03 !important;
+        background-image: none    !important;
+        border-color:     $base01 !important;
+        color:            $base0  !important;
+    }
+
+    .mw-ui-button,
+    #mw-mf-last-modified,
+    {
+        background-color: $base02 !important;
+        border-color:     $base0  !important;
+        color:            $base1  !important;
     }
 }
