@@ -27,15 +27,17 @@ $yellow:    #b58900;
 
 @-moz-document domain('wikipedia.org')
 {
-    html, body, div, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, ins, em, img, small, strike, strong, sub, sup, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, textarea, button, select, audio, video,
-    .catlinks,
-    .infobox,
-    .mw-body,
-    .plainlinks,
-    .vertical-navbox,
-    div.vectorTabs span,
+    body,
+    #mw-page-base,
     #simpleSearch,
+    input,
+    div.vectorTabs,
+    div.vectorTabs span,
+    .mw-body,
     #toc,
+    .infobox,
+    .thumbcaption,
+    .plainlinks,
     {
         background-color: $base03 !important;
         background-image: none    !important;
@@ -43,52 +45,20 @@ $yellow:    #b58900;
         color:            $base0  !important;
     }
 
-    .navbox-even,               // reverse color
-    .navbox-subgroup,
-    {
-        background-color: $base3  !important;
-        border-color:     $base1  !important;
-        color:            $base00 !important;
-    }
-
-    #footer,
-    {
-        margin: 0em !important;
-    }
-
-    .thumbcaption,
-    {
-        background-color: $base03 !important;
-        color:            $base00 !important;
-    }
-
     h1, h2, h3, h4, h5, h6,
     blockquote,
+    .thumb,
+    .thumbinner,
     {
         background-color: $base02 !important;
         border-color:     $base0  !important;
         color:            $base1  !important;
     }
 
-    .languageSelector // button
-    {
-        background-color: $blue   !important;
-        color:            $base03 !important;
-    }
-
     img,
     svg,
     {
         background-color: #FFFFFF !important;
-        border:           none    !important;
-    }
-
-    .thumb,
-    .thumbinner,
-    {
-        background-color: $base03 !important;
-        border:           none    !important;
-        padding:          0       !important;
     }
 
     a,
