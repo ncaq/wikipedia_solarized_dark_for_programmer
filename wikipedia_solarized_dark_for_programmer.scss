@@ -30,7 +30,6 @@ $yellow:    #b58900;
     .infobox,
     .thumbcaption,
     .catlinks,
-    .mwe-math-fallback-image-inline,
     table.plainlinks,
     #footer ul li,
     {
@@ -71,6 +70,11 @@ $yellow:    #b58900;
         {
             color: $royalBlue !important;
         }
+    }
+
+    .mwe-math-fallback-image-inline,
+    {
+        background-color: $base00 !important;
     }
 
     pre,
