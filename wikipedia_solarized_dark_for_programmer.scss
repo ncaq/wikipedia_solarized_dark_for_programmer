@@ -19,19 +19,32 @@ $yellow:    #b58900;
 @-moz-document domain('wikipedia.org')
 {
     body,
-    #mw-page-base,
-    #simpleSearch,
-    input,
-    div.vectorTabs,
-    div.vectorTabs span,
-    .mw-body,
-    #toc,
-    .mw-ui-button,
-    .infobox,
-    .thumbcaption,
+    footer,
+    table,
+
+    .NavHead,
+    .ambox,
     .catlinks,
-    table.plainlinks,
+    .client-js .toc-mobile,
+    .ext-cards-card-list .ext-cards-card,
+    .feature-footer-v2 footer .last-modified-bar,
+    .infobox,
+    .mbox-small,
+    .mw-body,
+    .mw-ui-button,
+    .thumbinner,
+    .toc,
+    .vectorTabs span,
+    .vectorTabs,
+    .wikitable th,
+    .wikitable,
+
+    input.search,
+
     #footer ul li,
+    #mw-head,
+    #simpleSearch input,
+    #simpleSearch,
     {
         background-color: $base03 !important;
         background-image: none    !important;
@@ -41,13 +54,12 @@ $yellow:    #b58900;
 
     h1, h2, h3, h4, h5, h6,
     blockquote,
-    .thumb,
-    .thumbinner,
-    .wikitable,
-    .ext-cards-card,
-    .ext-cards-card-list,
+    .header-container,
+    .navbox-even,
+    .navbox-list,
     {
         background-color: $base02 !important;
+        background-image: none    !important;
         border-color:     $base0  !important;
         color:            $base1  !important;
     }
@@ -77,8 +89,8 @@ $yellow:    #b58900;
         background-color: $base00 !important;
     }
 
-    pre,
     code,
+    pre,
     .mw-code,
     {
         background-color: $base03 !important;
@@ -156,26 +168,5 @@ $yellow:    #b58900;
             background-color: $base03 !important;
             color:            $cyan   !important;
         }
-    }
-}
-
-@-moz-document domain('m.wikipedia.org')
-{
-    #mw-mf-page-center,
-    input.search,
-    .toc-mobile,
-    {
-        background-color: $base03 !important;
-        background-image: none    !important;
-        border-color:     $base01 !important;
-        color:            $base0  !important;
-    }
-
-    .mw-ui-button,
-    #mw-mf-last-modified,
-    {
-        background-color: $base02 !important;
-        border-color:     $base0  !important;
-        color:            $base1  !important;
     }
 }
