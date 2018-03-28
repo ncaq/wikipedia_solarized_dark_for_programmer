@@ -28,11 +28,11 @@ $yellow:    #b58900;
     .client-js .toc-mobile,
     .ext-cards-card-list .ext-cards-card,
     .feature-footer-v2 footer .last-modified-bar,
+    .hatnote,
     .infobox,
     .mbox-small,
     .mw-body,
     .mw-ui-button,
-    .thumbinner,
     .toc,
     .vectorTabs span,
     .vectorTabs,
@@ -54,9 +54,12 @@ $yellow:    #b58900;
 
     h1, h2, h3, h4, h5, h6,
     blockquote,
+    .dablink,
     .header-container,
     .navbox-even,
     .navbox-list,
+    .rellink
+    .thumbinner,
     {
         background-color: $base02 !important;
         background-image: none    !important;
