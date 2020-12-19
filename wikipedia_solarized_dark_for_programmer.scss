@@ -1,175 +1,162 @@
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
-$magenta:   #d33682;
-$orange:    #cb4b16;
-$red:       #dc322f;
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #859900;
+$magenta: #d33682;
+$orange: #cb4b16;
+$red: #dc322f;
 $royalBlue: #4169e1;
-$violet:    #6c71c4;
-$yellow:    #b58900;
+$violet: #6c71c4;
+$yellow: #b58900;
 
-@-moz-document domain('wikipedia.org')
-{
-    body,
-    footer,
-    table,
+@-moz-document domain('wikipedia.org') {
+  body,
+  footer,
+  table,
+  .NavHead,
+  .ambox,
+  .catlinks,
+  .client-js .toc-mobile,
+  .ext-cards-card-list .ext-cards-card,
+  .feature-footer-v2 footer .last-modified-bar,
+  .hatnote,
+  .infobox,
+  .mbox-small,
+  .mw-body,
+  .mw-ui-button,
+  .toc,
+  .vectorTabs span,
+  .vectorTabs,
+  .wikitable th,
+  .wikitable,
+  input.search,
+  #footer ul li,
+  #mw-head,
+  #simpleSearch input,
+  #simpleSearch {
+    background-color: $base03 !important;
+    background-image: none !important;
+    border-color: $base01 !important;
+    color: $base0 !important;
+  }
 
-    .NavHead,
-    .ambox,
-    .catlinks,
-    .client-js .toc-mobile,
-    .ext-cards-card-list .ext-cards-card,
-    .feature-footer-v2 footer .last-modified-bar,
-    .hatnote,
-    .infobox,
-    .mbox-small,
-    .mw-body,
-    .mw-ui-button,
-    .toc,
-    .vectorTabs span,
-    .vectorTabs,
-    .wikitable th,
-    .wikitable,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote,
+  .dablink,
+  .header-container,
+  .navbox-even,
+  .navbox-list,
+  .rellink .thumbinner {
+    background-color: $base02 !important;
+    background-image: none !important;
+    border-color: $base0 !important;
+    color: $base1 !important;
+  }
 
-    input.search,
+  a {
+    color: $blue !important;
 
-    #footer ul li,
-    #mw-head,
-    #simpleSearch input,
-    #simpleSearch,
-    {
-        background-color: $base03 !important;
-        background-image: none    !important;
-        border-color:     $base01 !important;
-        color:            $base0  !important;
+    &:visited {
+      color: $violet !important;
     }
 
-    h1, h2, h3, h4, h5, h6,
-    blockquote,
-    .dablink,
-    .header-container,
-    .navbox-even,
-    .navbox-list,
-    .rellink
-    .thumbinner,
-    {
-        background-color: $base02 !important;
-        background-image: none    !important;
-        border-color:     $base0  !important;
-        color:            $base1  !important;
+    &.new {
+      color: $red !important;
     }
 
-    a,
-    {
-        color: $blue !important;
+    &.extiw {
+      color: $royalBlue !important;
+    }
+  }
 
-        &:visited,
-        {
-            color: $violet !important;
-        }
+  .mwe-math-fallback-image-inline {
+    background-color: $base00 !important;
+  }
 
-        &.new,
-        {
-            color: $red !important;
-        }
+  code,
+  pre,
+  .mw-code {
+    background-color: $base03 !important;
+    border-color: $base01 !important;
+    color: $base0 !important;
 
-        &.extiw,
-        {
-            color: $royalBlue !important;
-        }
+    .nu13 {
+      color: $red !important;
     }
 
-    .mwe-math-fallback-image-inline,
-    {
-        background-color: $base00 !important;
+    .kw1,                   // syntax keyword
+    .kw2,                   // reserved keyword
+    .kw5,                   // reserved keyword
+    .kw8,
+    .re1,                   // rep
+    .re2 {
+      color: $green !important;
     }
 
-    code,
-    pre,
-    .mw-code,
+    .kw3,                   // function
+    .kw6,
+    .kw7,
+    .me1,                   // method
+    .nc,
+    .nf,
+    .nn,
+    .re0                   // element
     {
-        background-color: $base03 !important;
-        border-color:     $base01 !important;
-        color:            $base0  !important;
-
-        .nu13
-        {
-            color: $red !important;
-        }
-
-        .kw1,                   // syntax keyword
-        .kw2,                   // reserved keyword
-        .kw5,                   // reserved keyword
-        .kw8,
-        .re1,                   // rep
-        .re2,
-        {
-            color: $green !important;
-        }
-
-        .kw3,                   // function
-        .kw6,
-        .kw7,
-        .me1,                   // method
-        .nc,
-        .nf,
-        .nn,
-        .re0,                   // element
-        {
-            color: $blue !important;
-        }
-
-        .nv,
-        .ss,
-        {
-            color: $royalBlue !important;
-        }
-
-        .kw4,                   // type
-        {
-            color: $yellow !important;
-        }
-
-        .es0,
-        .es1,                   // escaped
-        {
-            color: $violet !important;
-        }
-
-        .re5,
-        {
-            color: $magenta !important;
-        }
-
-        .br0,                   // bracket
-        .co1,                   // comments
-        .coMULTI,               // comments
-        .nu0,                   // number
-        .sy0,
-        .sy1,
-        .sy2,                   // symbol
-        {
-            color: $base01 !important;
-        }
-
-        .re9,                   // rep body
-        {
-            color: $base0 !important;
-        }
-
-        .st0,                   // string
-        .st_h,
-        {
-            background-color: $base03 !important;
-            color:            $cyan   !important;
-        }
+      color: $blue !important;
     }
+
+    .nv,
+    .ss {
+      color: $royalBlue !important;
+    }
+
+    .kw4                   // type
+    {
+      color: $yellow !important;
+    }
+
+    .es0,
+    .es1                   // escaped
+    {
+      color: $violet !important;
+    }
+
+    .re5 {
+      color: $magenta !important;
+    }
+
+    .br0,                   // bracket
+    .co1,                   // comments
+    .coMULTI,               // comments
+    .nu0,                   // number
+    .sy0,
+    .sy1,
+    .sy2                   // symbol
+    {
+      color: $base01 !important;
+    }
+
+    .re9                   // rep body
+    {
+      color: $base0 !important;
+    }
+
+    .st0,                   // string
+    .st_h {
+      background-color: $base03 !important;
+      color: $cyan !important;
+    }
+  }
 }
