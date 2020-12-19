@@ -25,6 +25,7 @@ $yellow: #b58900;
   .catlinks,
   .client-js .toc-mobile,
   .ext-cards-card-list .ext-cards-card,
+  .ext-related-articles-card,
   .feature-footer-v2 footer .last-modified-bar,
   .hatnote,
   .infobox,
@@ -44,6 +45,12 @@ $yellow: #b58900;
   #simpleSearch {
     background-color: $base03 !important;
     background-image: none !important;
+    border-color: $base01 !important;
+    color: $base0 !important;
+  }
+
+  .ext-related-articles-card-thumb {
+    background-color: $base03 !important;
     border-color: $base01 !important;
     color: $base0 !important;
   }
