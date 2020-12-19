@@ -32,6 +32,7 @@ $yellow: #b58900;
   .mw-body,
   .mw-ui-button,
   .toc,
+  .vector-menu-content-list li,
   .vectorTabs span,
   .vectorTabs,
   .wikitable th,
@@ -58,7 +59,9 @@ $yellow: #b58900;
   .header-container,
   .navbox-even,
   .navbox-list,
-  .rellink .thumbinner {
+  .rellink .thumbinner,
+  .rellink,
+  .vector-menu-content-list .selected {
     background-color: $base02 !important;
     background-image: none !important;
     border-color: $base0 !important;
