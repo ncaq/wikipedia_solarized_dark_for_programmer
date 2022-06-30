@@ -31,6 +31,7 @@ $yellow: #b58900;
   .infobox,
   .mbox-small,
   .mw-body,
+  .mw-page-container,
   .mw-ui-button,
   .toc,
   .vector-menu-content-list li,
@@ -64,15 +65,26 @@ $yellow: #b58900;
   blockquote,
   .dablink,
   .header-container,
+  .mw-message-box,
+  .mw-sidebar,
   .navbox-even,
   .navbox-list,
   .rellink .thumbinner,
   .rellink,
-  .vector-menu-content-list .selected {
+  .sidebar-toc,
+  .thumb,
+  .thumbinner,
+  .vector-menu-content-list .selected,
+  .vector-sticky-header {
     background-color: $base02 !important;
     background-image: none !important;
     border-color: $base0 !important;
     color: $base1 !important;
+  }
+
+  .sidebar-toc::after {
+    background-color: $base02 !important;
+    background-image: linear-gradient($base02, $base01);
   }
 
   a {
