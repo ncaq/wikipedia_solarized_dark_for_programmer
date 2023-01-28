@@ -83,16 +83,18 @@ $yellow: #b58900;
   .thumb,
   .thumbinner,
   .vector-menu-content-list .selected,
-  .vector-sticky-header {
+  .vector-sticky-header,
+  .vector-toc {
     background-color: $base02 !important;
     background-image: none !important;
     border-color: $base0 !important;
     color: $base1 !important;
   }
 
-  .sidebar-toc::after {
+  .sidebar-toc::after,
+  .vector-toc::after {
     background-color: $base02 !important;
-    background-image: linear-gradient($base02, $base01);
+    background-image: linear-gradient($base02, $base01) !important;
   }
 
   a {
