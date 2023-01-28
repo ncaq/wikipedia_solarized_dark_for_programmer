@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "sass --embed-source-map wikipedia_solarized_dark_for_programmer.scss:wikipedia_solarized_dark_for_programmer.css"
+    "build": "sass --no-source-map wikipedia_solarized_dark_for_programmer.scss:wikipedia_solarized_dark_for_programmer.css"
   },
   "devDependencies": {
     "sass": "^1.57.1"
