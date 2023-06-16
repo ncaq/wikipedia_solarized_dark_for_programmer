@@ -1,9 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "build": "sass --no-source-map wikipedia_solarized_dark_for_programmer.scss:wikipedia_solarized_dark_for_programmer.css"
+    "build": "sass --no-source-map wikipedia_solarized_dark_for_programmer.scss:wikipedia_solarized_dark_for_programmer.css",
+    "fix": "yarn lint --write",
+    "lint": "prettier --ignore-path .gitignore --ignore-unknown --check '**/*.{js,jsx,ts,tsx,json,html,css,less,sass,scss,yml,yaml}'"
   },
   "devDependencies": {
+    "prettier": "^2.8.8",
     "sass": "^1.57.1"
   }
 }

@@ -2,7 +2,7 @@
 @name      Wikipedia - Solarized Dark for programmer
 @namespace https://www.ncaq.net/
 @author    ncaq
-@version   1.1.0
+@version   1.1.1
 @license   CC0-1.0
 ==/UserStyle== */
 
@@ -25,10 +25,10 @@ $violet: #6c71c4;
 $yellow: #b58900;
 
 @-moz-document domain('wikipedia.org') {
+  /* 基本的な配色。 */
   body,
   footer,
   table,
-  .NavHead,
   .ambox,
   .catlinks,
   .client-js .toc-mobile,
@@ -41,6 +41,7 @@ $yellow: #b58900;
   .mw-body,
   .mw-page-container,
   .mw-ui-button,
+  .sidebar-content,
   .toc,
   .vector-menu-content-list li,
   .vectorTabs span,
@@ -58,12 +59,14 @@ $yellow: #b58900;
     color: $base0 !important;
   }
 
+  /* 背景画像を上書きしたくない場合に使います。 */
   .ext-related-articles-card-thumb {
     background-color: $base03 !important;
     border-color: $base01 !important;
     color: $base0 !important;
   }
 
+  /* 目立たせたい配色。 */
   h1,
   h2,
   h3,
@@ -79,11 +82,15 @@ $yellow: #b58900;
   .navbox-list,
   .rellink .thumbinner,
   .rellink,
+  .sidebar,
   .sidebar-toc,
   .thumb,
   .thumbinner,
+  .vector-header-container,
   .vector-main-menu,
   .vector-menu-content-list .selected,
+  .vector-menu-heading,
+  .vector-page-tools,
   .vector-sticky-header,
   .vector-toc {
     background-color: $base02 !important;
@@ -92,12 +99,15 @@ $yellow: #b58900;
     color: $base1 !important;
   }
 
+  /* グラデーションを自然にします。 */
   .sidebar-toc::after,
+  .vector-page-tools::after,
   .vector-toc::after {
     background-color: $base02 !important;
     background-image: linear-gradient($base02, $base01) !important;
   }
 
+  /* リンクの配色をSolarized Darkネイティブにします。 */
   a {
     color: $blue !important;
 
@@ -114,10 +124,12 @@ $yellow: #b58900;
     }
   }
 
+  /* 数式の背景をネイティブにします。 */
   .mwe-math-fallback-image-inline {
     background-color: $base00 !important;
   }
 
+  /* コードへのシンタックスハイライト。 */
   code,
   pre,
   .mw-code {
