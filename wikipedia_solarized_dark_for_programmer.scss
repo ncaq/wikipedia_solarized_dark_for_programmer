@@ -25,6 +25,7 @@ $violet: #6c71c4;
 $yellow: #b58900;
 
 @-moz-document domain('wikipedia.org') {
+  /* 基本的な配色。 */
   body,
   footer,
   table,
@@ -58,12 +59,14 @@ $yellow: #b58900;
     color: $base0 !important;
   }
 
+  /* 背景画像を上書きしたくない場合に使います。 */
   .ext-related-articles-card-thumb {
     background-color: $base03 !important;
     border-color: $base01 !important;
     color: $base0 !important;
   }
 
+  /* 目立たせたい配色。 */
   h1,
   h2,
   h3,
@@ -92,12 +95,14 @@ $yellow: #b58900;
     color: $base1 !important;
   }
 
+  /* グラデーションを自然にします。 */
   .sidebar-toc::after,
   .vector-toc::after {
     background-color: $base02 !important;
     background-image: linear-gradient($base02, $base01) !important;
   }
 
+  /* リンクの配色をSolarized Darkネイティブにします。 */
   a {
     color: $blue !important;
 
@@ -114,10 +119,12 @@ $yellow: #b58900;
     }
   }
 
+  /* 数式の背景をネイティブにします。 */
   .mwe-math-fallback-image-inline {
     background-color: $base00 !important;
   }
 
+  /* コードへのシンタックスハイライト。 */
   code,
   pre,
   .mw-code {
