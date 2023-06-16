@@ -89,6 +89,8 @@ $yellow: #b58900;
   .vector-header-container,
   .vector-main-menu,
   .vector-menu-content-list .selected,
+  .vector-menu-heading,
+  .vector-page-tools,
   .vector-sticky-header,
   .vector-toc {
     background-color: $base02 !important;
@@ -99,6 +101,7 @@ $yellow: #b58900;
 
   /* グラデーションを自然にします。 */
   .sidebar-toc::after,
+  .vector-page-tools::after,
   .vector-toc::after {
     background-color: $base02 !important;
     background-image: linear-gradient($base02, $base01) !important;
