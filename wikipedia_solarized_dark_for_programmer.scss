@@ -44,6 +44,7 @@ $yellow: #b58900;
   .sidebar-content,
   .toc,
   .vector-menu-content-list li,
+  .vector-pinnable-header-toggle-button,
   .vectorTabs span,
   .vectorTabs,
   .wikitable th,
@@ -86,11 +87,13 @@ $yellow: #b58900;
   .sidebar-toc,
   .thumb,
   .thumbinner,
+  .vector-header,
   .vector-header-container,
   .vector-main-menu,
   .vector-menu-content-list .selected,
   .vector-menu-heading,
   .vector-page-tools,
+  .vector-pinned-container,
   .vector-sticky-header,
   .vector-toc {
     background-color: $base02 !important;
@@ -102,6 +105,7 @@ $yellow: #b58900;
   /* グラデーションを自然にします。 */
   .sidebar-toc::after,
   .vector-page-tools::after,
+  .vector-sticky-pinned-container::after,
   .vector-toc::after {
     background-color: $base02 !important;
     background-image: linear-gradient($base02, $base01) !important;
