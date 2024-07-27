@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,sass
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,sass
+# Created by https://www.toptal.com/developers/gitignore/api/node,yarn,sass
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,yarn,sass
 
 ### Node ###
 # Logs
@@ -146,6 +146,25 @@ dist
 *.css.map
 *.sass.map
 *.scss.map
+
+### yarn ###
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+# !.yarn/cache
+
+# and uncomment the following lines
+.pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/node,yarn,sass
 
 # End of https://www.toptal.com/developers/gitignore/api/node,sass
 
