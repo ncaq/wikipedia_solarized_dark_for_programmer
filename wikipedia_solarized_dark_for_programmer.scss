@@ -2,7 +2,7 @@
 @name      Wikipedia - Solarized Dark for programmer
 @namespace https://www.ncaq.net/
 @author    ncaq
-@version   1.1.1
+@version   2.0.0
 @license   CC0-1.0
 ==/UserStyle== */
 
@@ -25,6 +25,35 @@ $violet: #6c71c4;
 $yellow: #b58900;
 
 @-moz-document domain('wikipedia.org') {
+  :root,
+  .skin-invert,
+  .notheme {
+    --color-base: $base0;
+    --color-base--hover: $base00;
+    --color-emphasized: $base1;
+    --color-subtle: $base0;
+    --color-placeholder: #72777d;
+    --color-disabled: #72777d;
+    --color-inverted: #fff;
+    --color-inverted-fixed: #fff;
+    --color-visited: $violet;
+    --color-error: $red;
+    --color-warning: $yellow;
+    --box-shadow-color-base: $base3;
+    --box-shadow-color-inverted: $base03;
+    --background-color-interactive: $base03;
+    --background-color-interactive-subtle: $base0;
+    --background-color-disabled: #c8ccd1;
+    --background-color-disabled-subtle: #eaecf0;
+    --background-color-base: $base03;
+    --background-color-base-fixed: $base03;
+    --background-color-neutral: $base03;
+    --background-color-neutral-subtle: $base0;
+    --border-color-base: $base01;
+    --border-color-interactive: $base00;
+    --color-base--subtle: $base0;
+  }
+
   /* 基本的な配色。 */
   body,
   footer,
